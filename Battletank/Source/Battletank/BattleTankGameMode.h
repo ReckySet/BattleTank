@@ -2,15 +2,14 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
-#include "GameFramework/GameModeBase.h"
+#include "GameFramework/GameMode.h"
 #include "BattleTankGameMode.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class BATTLETANK_API ABattleTankGameMode : public AGameModeBase
+class BATTLETANK_API ABattleTankGameMode : public AGameMode
 {
 	GENERATED_BODY()
 	

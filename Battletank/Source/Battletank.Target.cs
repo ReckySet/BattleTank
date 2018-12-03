@@ -3,12 +3,11 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class BattletankTarget : TargetRules
+public class BattleTankTarget : TargetRules
 {
-	public BattletankTarget(TargetInfo Target) : base(Target)
+	public BattleTankTarget(TargetInfo Target) : base (Target)
 	{
 		Type = TargetType.Game;
-
-		ExtraModuleNames.AddRange( new string[] { "Battletank" } );
+		ExtraModuleNames.Add("BattleTank");
 	}
 }
